@@ -1389,4 +1389,7 @@ button.swiper-pagination-bullet {
       border-color: #000;
       background-color: rgba(0, 0, 0, 0.3); }
 
+.light-bg {
+  background-color: #ddd; }
+
 /*# sourceMappingURL=styles.css.map */
