@@ -18,7 +18,7 @@ TextBoxWidget.title = 'Text';
 TextBoxWidget.category = 'General';
 
 TextBoxWidget.defaults = {
-  variant: 'full-width',
+  variant: 'shift-2',
   alignment: 'left',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor semper est in porta. Vestibulum fringilla justo in magna ornare, non commodo justo consectetur. Mauris ut tristique nisi, sed tristique lectus. Sed diam mauris, aliquet quis imperdiet sed, viverra sit amet lorem. Quisque urna sapien, molestie a bibendum nec, tempor vitae magna.',
   containerSettings: {},
