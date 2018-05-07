@@ -7,7 +7,7 @@ yarn install
 # Run locally
 
 ```
-yarn dev
+yarn start
 ```
 
 Then open http://localhost:4000/

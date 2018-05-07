@@ -7,8 +7,7 @@ export default () => (
 
       <div className="container">
         <h1>
-          Lorem ipsum dolor sit nostrum necessitatibus ipsum dolor
-          <Highlight>H1</Highlight>
+          Lorem ipsum dolor sit nostrum necessitatibus ipsum dolor <Highlight>H1</Highlight>
         </h1>
         <p>
           Lorem ipsum dolor sit amet <a href="#">this is a link</a> elit.
