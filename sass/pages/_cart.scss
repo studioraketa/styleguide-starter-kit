@@ -1,0 +1,55 @@
+.cart-page {
+  padding: 4em 0;
+  padding-top: 1em;
+
+  .cart {
+    table {
+      margin-bottom: 2em;
+      border: 1px solid #ddd;
+
+      tfoot {
+        th { text-align: right; }
+      }
+
+      .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 1em;
+      }
+
+      input[type=number] {
+        width: 70px;
+        text-align: center;
+      }
+
+      button[type=submit] {
+        -webkit-appearance: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+      }
+
+      .quantity { width: 130px; }
+      .price {
+        width: 100px;
+        text-align: right;
+      }
+
+      .actions {
+        width: 120px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.icon-refresh {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItcmVmcmVzaC1jY3ciPjxwb2x5bGluZSBwb2ludHM9IjEgNCAxIDEwIDcgMTAiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iMjMgMjAgMjMgMTQgMTcgMTQiPjwvcG9seWxpbmU+PHBhdGggZD0iTTIwLjQ5IDlBOSA5IDAgMCAwIDUuNjQgNS42NEwxIDEwbTIyIDRsLTQuNjQgNC4zNkE5IDkgMCAwIDEgMy41MSAxNSI+PC9wYXRoPjwvc3ZnPg==);
+}

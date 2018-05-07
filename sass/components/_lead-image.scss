@@ -1,0 +1,50 @@
+.lead-image {
+  position: relative;
+
+  img {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+  }
+
+  h1 { margin-bottom: 0; }
+
+  p { margin-bottom: 1em; }
+
+  .btn-wrapper {
+    a {
+      margin-right: .5em;
+      font-size: 2em;
+      padding: .5em .6em 0.4em;
+
+      &:last-child { margin-right: 0; }
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,.2);
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

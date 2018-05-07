@@ -1,0 +1,17 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-container {
+  & > * {
+    margin-right: 1em;
+
+    &:last-child { margin-right: 0; }
+  }
+}
+
+.thanks {
+  text-align: center;
+}

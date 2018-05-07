@@ -1,0 +1,19 @@
+.slider {
+  position: relative;
+
+  .swiper-button-prev,
+  .swiper-button-next { opacity: 1; }
+
+  .swiper-button-prev { left: $gutter * 2; }
+  .swiper-button-next { right: $gutter * 2; }
+
+  &.container {
+    .swiper-button-prev { left: -$gutter * 2; }
+    .swiper-button-next { right: -$gutter * 2; }
+  }
+
+  @include bp($bp-mobile) {
+    .swiper-button-prev,
+    .swiper-button-next { display: none; }
+  }
+}

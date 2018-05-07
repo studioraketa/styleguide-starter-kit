@@ -1,0 +1,13 @@
+.cta-widget {
+  text-align: center;
+
+  .btn-wrapper {
+    margin-top: 1em;
+
+    a {
+      margin-right: .5em;
+
+      &:last-child { margin-right: 0; }
+    }
+  }
+}

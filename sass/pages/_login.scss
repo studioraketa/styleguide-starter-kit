@@ -1,0 +1,14 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.flex-container {
+  & > * {
+    margin-right: 1em;
+
+    &:last-child { margin-right: 0; }
+  }
+}

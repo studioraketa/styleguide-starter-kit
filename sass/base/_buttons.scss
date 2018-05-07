@@ -1,0 +1,86 @@
+button { cursor: pointer; }
+
+.btn-primary,
+.btn-secondary,
+.btn-success,
+.btn-danger,
+.btn-default,
+.btn-text {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-decoration: none;
+  padding: 0.75em 1em;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+
+  &.lg {
+    font-size: 1.11em;
+  }
+}
+
+.btn-primary {
+  border-color: #000;
+  background-color: #000;
+
+  &:hover {
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+  }
+
+  &.invert {
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
+
+    &:hover {
+      border-color: #000;
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
+
+.btn-secondary {
+  border-color: #000;
+  color: #000;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  &.invert {
+    border-color: #fff;
+    color: #fff;
+
+    &:hover {
+      border-color: #fff;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #fff;
+    }
+  }
+}
+
+.btn-text {
+  padding: 0.25em 0;
+  color: $black;
+  border-color: transparent;
+  border: 0;
+  border-bottom: 4px solid $black;
+  border-radius: 0;
+
+  &:hover {
+    border-color: transparent;
+  }
+}

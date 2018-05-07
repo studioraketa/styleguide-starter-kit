@@ -1,0 +1,42 @@
+.dark-bg {
+  color: $true-white;
+  background: $true-black;
+
+  a { color: $true-white; }
+
+  .navigation {
+    a {
+      &:hover,
+      &.current { border-color: $white; }
+    }
+  }
+
+  .quote {
+    &:before { color: $white; }
+
+    blockquote { color: $white; }
+  }
+
+  .btn-primary {
+    color: $true-black;
+    background-color: $true-white;
+    border-color: $true-white;
+
+    &:hover {
+      color: $true-white;
+      background-color: $true-black;
+      border-color: $true-black;
+    }
+  }
+
+  .btn-secondary {
+    color: $true-white;
+    border-color: $true-white;
+
+    &:hover {
+      color: $true-white;
+      border-color: $true-black;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.cards {
+  h3 { font-size: 1.414em; }
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: .85em;
+    color: $darker-gray;
+  }
+
+  .image-wrapper {
+    overflow: hidden;
+  }
+
+  .card {
+    background-color: $white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+
+    &:hover {
+      img { transform: scale(1.05); }
+    }
+  }
+
+  .card-image {
+    img {
+      display: block;
+      width: 100%;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  @include bp($bp-desktop) {
+    .card-content { padding: $gutter * 2; }
+
+    .btn-text { margin-bottom: $gutter; }
+  }
+
+  @include bp($bp-mobile) {
+    .card-content { padding: $gutter; }
+
+    .btn-text { margin-bottom: $gutter / 2; }
+  }
+}
+
+.dark-bg {
+  .cards {
+    .btn-text { color: $black; }
+  }
+}
