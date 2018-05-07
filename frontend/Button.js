@@ -7,7 +7,7 @@ const Button = ({ settings, className }) => {
   let buttonClass;
 
   if (type === 'primary') buttonClass = 'btn-primary';
-  if (type === 'secondary') buttonClass = 'btn-accent';
+  if (type === 'secondary') buttonClass = 'btn-secondary';
   if (className) buttonClass = `${buttonClass} ${className}`;
 
   return (

@@ -36,8 +36,8 @@ LeadImageWidget.defaults = {
   image: 'http://placehold.it/1920x750',
   title: 'Lead image',
   description: 'Sample description',
-  primaryButton: {},
-  secondaryButton: {},
+  primaryButton: { type: 'primary', label: 'Primary', link: '#' },
+  secondaryButton: { type: 'secondary', label: 'Secondary', link: '#' },
   overlay: 0,
   containerSettings: {},
 };

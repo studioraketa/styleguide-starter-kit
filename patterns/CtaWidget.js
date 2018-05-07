@@ -29,8 +29,8 @@ CallToActionWidget.defaults = {
   variant: 'horizontal',
   title: 'Call to action',
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ',
-  primaryButton: {},
-  secondaryButton: {},
+  primaryButton: { type: 'primary', label: 'Primary', link: '#' },
+  secondaryButton: { type: 'secondary', label: 'Secondary', link: '#' },
   containerSettings: {},
 };
 

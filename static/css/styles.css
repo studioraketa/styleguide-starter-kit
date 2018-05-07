@@ -430,10 +430,8 @@ button {
     margin-bottom: 0; }
   .lead-image p {
     margin-bottom: 1em; }
-  .lead-image .btn-wrapper a {
-    margin-right: .5em;
-    font-size: 2em;
-    padding: .5em .6em 0.4em; }
+  .lead-image .btn-wrapper {
+    margin-top: 1em; }
     .lead-image .btn-wrapper a:last-child {
       margin-right: 0; }
   .lead-image .overlay {
