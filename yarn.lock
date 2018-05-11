@@ -4425,9 +4425,9 @@ quill@^1.2.6:
     parchment "^1.1.4"
     quill-delta "^3.6.2"
 
-raketa-styleguide@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/raketa-styleguide/-/raketa-styleguide-1.0.4.tgz#17be140a362311fd91ae3edb27d20c9fd4a3a47e"
+raketa-styleguide@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/raketa-styleguide/-/raketa-styleguide-1.0.5.tgz#73d4252e58ad7254481fd8007549d77ea273fd99"
 
 raketa-ui@^1.0.6:
   version "1.0.6"
